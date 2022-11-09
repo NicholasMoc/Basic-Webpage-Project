@@ -1,0 +1,119 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header{
+    background-color: #1F2937;
+    padding: 1px 100px;
+}
+
+.hero {
+    width: 500px;
+}
+.Title {
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+
+}
+
+.intro {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+button {
+background-color:#3882F6;
+color: white;
+border: none;
+padding: 7px 40px;
+border-radius: 8px;
+font-size: 14px;
+
+}
+.hero-main{
+    font-size:48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.rand-info {
+    background-color: white;
+    padding: 50px;
+}
+
+.sub-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    
+}
+
+.row-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    gap: 50px;
+}
+
+.hum {
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+}
+.info {
+    width: 200px;
+    text-align: center;
+}
+
+.inspiring-quote {
+    background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    width: 850px;
+}
+
+.quote-author {
+    font-weight: bold;
+    font-size: 24px;
+    width: 850px;
+    text-align: right;
+    color: #1F2937;
+    
+}
+p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+ul{
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
