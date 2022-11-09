@@ -2,16 +2,16 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: Roboto, sans-serif;
 }
 
 .header{
     background-color: #1F2937;
-    padding: 1px 100px;
+    padding: 10px 100px;
+    padding-bottom: 50px;
 }
 
-.hero {
-    width: 500px;
-}
+
 .Title {
     display: flex;
     height: 60px;
@@ -20,17 +20,22 @@ body {
 }
 
 .intro {
-    display:flex;
+    display: flex;
+    background-color: #1F2937;
     justify-content: space-between;
     align-items: center;
-    flex-grow: 1;
+    
+}
+.card {
+    height: auto;
+    width: 600px;
 }
 
 button {
 background-color:#3882F6;
 color: white;
 border: none;
-padding: 7px 40px;
+padding: 7px 30px;
 border-radius: 8px;
 font-size: 14px;
 
@@ -97,6 +102,46 @@ font-size: 14px;
     text-align: right;
     color: #1F2937;
     
+}
+
+.Call-to-back {
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 200px;
+}
+
+.Call-to {
+    width: 800px;
+    padding: 35px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action {
+    font-weight: bold;
+    font-size: 20px;
+}
+.sub-action {
+    font-size: 18px;
+}
+.white-border-button {
+    border: 1px solid white;
+    font-weight: bold;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color:#E5E7EB;
 }
 p{
     font-size: 18px;
